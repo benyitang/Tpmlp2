@@ -1,0 +1,50 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    background-color: #f2e8ef; /* Suave rosa pastel */
+}
+
+.pony-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pony {
+    background-color: #fff;
+    border: 2px solid #e6c9da; /* Rosa pálido */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    position: relative; /* Para posicionar el botón de eliminar */
+}
+
+.pony img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.pony h3 {
+    font-size: 1.5rem;
+    color: #663399; /* Morado */
+    margin-bottom: 5px;
+}
+
+.pony p {
+    font-size: 1rem;
+    color: #663399; /* Morado */
+}
+
+.delete-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #e74c3c; /* Rojo vibrante */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
